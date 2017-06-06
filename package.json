@@ -1,0 +1,31 @@
+{
+  "name": "protractor-webpack",
+  "version": "0.1.0",
+  "description": "Synchronizes Protractor test runs with serving a Webpack bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thompsnm/protractor-webpack.git"
+  },
+  "keywords": [
+    "Protractor",
+    "Webpack"
+  ],
+  "author": "Nathan Thompson <nathan.mike.thompson@gmail.com> (https://github.com/thompsnm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thompsnm/protractor-webpack/issues"
+  },
+  "homepage": "https://github.com/thompsnm/protractor-webpack#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "peerDependencies": {
+    "protractor": ">= 5.1.0",
+    "webpack": ">= 2.2.1"
+  }
+}
